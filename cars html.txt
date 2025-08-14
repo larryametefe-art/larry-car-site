@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Larry的汽车商城</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>欢迎来到Larry的汽车商城</h1>
+    <nav>
+      <a href=" ">首页</a > |
+      <a href="cars.html">车辆列表</a > |
+      <a href="contact.html">联系我</a >
+    </nav>
+  </header>
+
+  <section>
+    <h2>🔥 热门推荐</h2>
+    <div class="car">
+      <h3>2020 Honda Civic</h3>
+      <p>¥65,000 | 30,000 km | 状态：良好</p >
+      < img src="https://via.placeholder.com/300x200" alt="Honda Civic">
+    </div>
+  </section>
+
+  <section class="qr">
+    <h2>📱 扫码联系我</h2>
+    < img src="https://api.qrserver.com/v1/create-qr-code/?data=https://yourgithubsite.com&size=200x200" alt="QR Code">
+  </section>
+
+  <footer>
+    <p>© 2025 Larry的汽车商城</p >
+  </footer>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.car {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>车辆列表 - Larry的汽车商城</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>车辆列表</h1>
+    <nav>
+      <a href=" ">首页</a > |
+      <a href="cars.html">车辆列表</a > |
+      <a href="contact.html">联系我</a > |
+      <a href="about.html">关于我们</a >
+    </nav>
+  </header>
+
+  <section>
+    <div class="car">
+      < img src="https://example.com/car1.jpg" alt="Toyota Camry">
+      <h3>2019 Toyota Camry</h3>
+      <p>¥72,000 | 45,000 km | 自动挡 | 状态：优秀</p >
+    </div>
+
+    <div class="car">
+      < img src="https://example.com/car2.jpg" alt="Volkswagen Passat">
+      <h3>2018 Volkswagen Passat</h3>
+      <p>¥68,000 | 60,000 km | 手动挡 | 状态：良好</p >
+    </div>
+
+    <div class="car">
+      < img src="https://example.com/car3.jpg" alt="Nissan Altima">
+      <h3>2020 Nissan Altima</h3>
+      <p>¥75,000 | 30,000 km | 自动挡 | 状态：几乎全新</p >
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Larry的汽车商城</p >
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>联系我 - Larry的汽车商城</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>联系我</h1>
+    <nav>
+      <a href=" ">首页</a > |
+      <a href="cars.html">车辆列表</a > |
+      <a href="contact.html">联系我</a >
+    </nav>
+  </header>
+
+  <section>
+    <form>
+      <label for="name">姓名：</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">邮箱：</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="message">留言：</label><br>
+      <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+      <input type="submit" value="发送">
+    </form>
+  </section>
+
+  <section class="qr">
+    <h2>📱 扫码加我微信</h2>
+    < img src="https://api.qrserver.com/v1/create-qr-code/?data=weixin://yourwechatid&size=200x200" alt="WeChat QR">
+  </section>
+
+  <footer>
+    <p>© 2025 Larry的汽车商城</p >
+  </footer>
+</body>
+</html>
